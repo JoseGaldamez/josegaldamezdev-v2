@@ -1,0 +1,43 @@
+.navbar {
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: opacity(20%);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo {
+    height: 30px;
+    width: 30px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__menu {
+    height: 100%;
+    padding: 20px 10px;
+}
+.navbar__menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3f4249;
+    font-weight: 400;
+}
+
+.navbar__menu ul li {
+    list-style: none;
+    margin: 5px 25px;
+    cursor: pointer;
+}
+
+.navbar__menu__selected {
+    color: #fff;
+    border-bottom: solid #1071cf 2px;
+}

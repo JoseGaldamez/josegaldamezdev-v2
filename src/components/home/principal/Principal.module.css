@@ -1,0 +1,18 @@
+.section {
+    width: 100%;
+    padding-top: 70px;
+    height: 120vh;
+    background: radial-gradient(circle at 80% 80%, rgba(40, 44, 53, 1) 0%, rgba(12, 16, 25, 1) 100%);
+}
+
+.section__title {
+    font-weight: 700;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
+.footer__principal {
+    width: 100%;
+}
