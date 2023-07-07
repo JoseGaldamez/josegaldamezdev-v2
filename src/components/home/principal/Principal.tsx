@@ -2,10 +2,28 @@ import React from 'react'
 
 import styles from './Principal.module.css';
 import { Networks } from './Networks';
+import { Technologies } from './Technologies/Technologies';
 
 export const Principal = () => {
     return (
         <section className={styles.section}>
+            <div className={styles.burbles}>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <div className={styles.section__title}>
                 <div className={styles.section__title__name}>
                     Jose
@@ -28,6 +46,9 @@ export const Principal = () => {
                     </div>
                 </div>
             </div>
+
+            <Technologies />
+
         </section>
     )
 }
